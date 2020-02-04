@@ -14,7 +14,6 @@ end
  else
   false
   end
-C
 end
 
   
