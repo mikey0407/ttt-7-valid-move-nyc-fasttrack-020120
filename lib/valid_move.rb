@@ -15,7 +15,11 @@ def on_board? (index)
   end 
 end
 
-if position_taken?(board, index) - 
+if position_taken?(board, index) == false && on_board == true
+  return true
+else
+  return false
+end
   
     if index.is_a?(integer) &&
     index.between?(0,8) &&
