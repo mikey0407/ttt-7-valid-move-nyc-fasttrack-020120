@@ -1,4 +1,4 @@
- def valid_move? ( board, index)
+ def valid_move? (board, index)
    def position_taken?(board, index)
    if board[index] == " " || board[index] == "" || board[index] == nil
     return false
@@ -15,7 +15,7 @@ def on_board? (index)
   end 
 end
 
-def 
+if position_taken?(board, index) - 
   
     if index.is_a?(integer) &&
     index.between?(0,8) &&
