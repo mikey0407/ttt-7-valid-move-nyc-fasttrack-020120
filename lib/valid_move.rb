@@ -7,6 +7,7 @@
   end
 end
    
+
     if index.is_a?(integer) &&
     index.between?(0,8) &&
   not position_taken?(board, index)
