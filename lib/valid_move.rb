@@ -8,7 +8,7 @@
 end
    
 def on_board? (index)
-  if num.between(0,8) == true 
+  if index.between(0,8) == true 
     return true
   else
     return false
